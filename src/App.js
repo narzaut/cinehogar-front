@@ -1,8 +1,8 @@
 
 import React, { useContext } from 'react'
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import { Landing } from './components/pages/Landing'
-import { Home } from './components/pages/Home'
+import { Landing } from './components/pages/Landing/Landing'
+import { Home } from './components/pages/Home/Home'
 import { NotFound } from './components/pages/NotFound';
 import { GlobalContext } from './context/GlobalState';
 

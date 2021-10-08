@@ -1,0 +1,87 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');	
+
+/* -------------------------------------------  */
+html, body{
+  margin:0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--black-color);
+	scroll-behavior: smooth;
+	scrollbar-color: grey var(--black-color);
+
+}
+
+/* ------------------------------------------- MAIN SECTION */
+
+.header{
+	position: relative;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.25)) , url(../assets/bg-header.jpg) no-repeat top center;
+  background-size: cover !important;
+	-webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.text-orange{
+	color: #E74C3C;
+}
+
+.text-orange-darker{
+	color: #E43321;
+}
+
+.border-orange{
+	border-color: #E74C3C;
+}
+
+.bg-orange{
+	background-color: #E74C3C;
+}
+.hover-bg-darker-orange:hover{
+	background-color: #E43321;
+}
+
+.bg-gray{
+	background-color: #2B2B2B;
+}
+
+.bg-lightgray{
+	background-color: #9797a1;
+}
+
+.text-shadow{
+	text-shadow: 1px 1px 2px black;
+}
+
+
+
+.hover-press-animation:hover{
+	transform: translateY(4px);
+	transition: all 0.1s ease-out;
+}
+
+.press-animation:active{
+	transform: translateY(4px);
+	transition: all 0.1s ease-out;
+}
+
+.glass {
+	background-color: rgba(0, 0, 0, 0.15);   
+	backdrop-filter: blur(5px);
+ }
+
+ .darker-glass{
+	background-color: rgba(0, 0, 0, 0.4);   
+	backdrop-filter: blur(5px);
+ }
