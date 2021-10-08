@@ -5,7 +5,7 @@ import { Landing } from './components/pages/Landing/Landing'
 import { Home } from './components/pages/Home/Home'
 import { NotFound } from './components/pages/NotFound';
 import { GlobalContext } from './context/GlobalState';
-
+import { Login } from './components/pages/Landing/Login'
 function App() {
   const { userState } = useContext(GlobalContext)
 	const [user, setUser] = userState
@@ -17,6 +17,9 @@ function App() {
 				</Route>
 				<Route exact path='/home'>
 					<Home user={user}/>		
+				</Route>
+				<Route exact path='/login'>
+					<Login />
 				</Route>
 				<Route>
 					<NotFound/>	
