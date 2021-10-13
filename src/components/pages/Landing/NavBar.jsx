@@ -15,7 +15,7 @@ export const NavBar = () => {
 			<div className={`${history.location.pathname == '/login' && 'hidden'} w-full md:w-40`}>
 				<Link to='/login'>
 					<div className={` w-full text-gray-200  text-shadow py-1 md:py-2 px-2 md:px-4 transition bg-orange hover-bg-darker-orange rounded-sm cursor-pointer select-none`}>
-						<i class="fas fa-user mr-2 "></i>
+						<i className="fas fa-user mr-2 "></i>
 						Iniciar sesión
 					</div>
 				</Link>

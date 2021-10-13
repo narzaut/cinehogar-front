@@ -47,7 +47,7 @@ export function EmailInput({ icon, value, placeholder }) {
 					</div>
 					<button className='rounded-r w-1/3 absolute top-1/2 transform -translate-y-1/2 right-0 bg-orange h-full   tracking-wider  flex items-center justify-center cursor-pointer transition hover-bg-green bg-green text-gray-100 font-semibold hover-bg-darker-orange text-shadow' type="submit">{window.width > 480 && <span>Comenzar </span> }<i class="pl-2 fas fa-angle-double-right text-2xl md:text-base lg:text-base"></i></button>
 				</div>
-				<p className='pt-2 pl-2 text-left text-xs text-yellow-300 font-bold  text-shadow'>{error ? <span><i class="fas fa-exclamation-circle"></i> {error}</span> : <div className='invisible'>hidden</div>}</p>
+				<p className='pt-2 pl-2 text-left text-xs text-yellow-300 font-bold  text-shadow'>{error ? <span><i className="fas fa-exclamation-circle"></i> {error}</span> : <div className='invisible'>hidden</div>}</p>
 			</div>
 		</form>
 	);
